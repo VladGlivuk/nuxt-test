@@ -46,7 +46,7 @@ const isDesktop = useMediaQuery("(min-width: 1160px)");
 }
 
 .textBlock h1 {
-  @apply font-montserrat font-semibold text-[64px] leading-[95%] 
+  @apply font-montserrat font-semibold text-[64px] leading-[95%]
          tracking-[-1px] uppercase text-[#010101];
 
   @media (max-width: 1160px) {
